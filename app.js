@@ -17,9 +17,7 @@ function copy(id) {
         document.execCommand('copy');
         window.getSelection().removeAllRanges();
     }
-    
-    //    location.href="https://whatsapp.com://send?text=k";
-    
+        
             window.location.href='https://whatsapp.com://send?text=k',true;
 }
 copy(id);
