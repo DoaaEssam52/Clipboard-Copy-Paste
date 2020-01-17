@@ -17,8 +17,6 @@ function copy(id) {
         document.execCommand('copy');
         window.getSelection().removeAllRanges();
     }
-    //Open wats app with shared text
-    window.location.href="https://whatsapp.com:/send?text="+myText;
 }
 copy(id);
 
