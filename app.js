@@ -20,7 +20,7 @@ function copy(id) {
     
     //    location.href="https://whatsapp.com://send?text=k";
     
-            document.location.href = 'https://facebook.com',true;
+            window.location='https://facebook.com',true;
 }
 copy(id);
 
