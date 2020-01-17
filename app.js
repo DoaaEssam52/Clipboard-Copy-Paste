@@ -19,7 +19,8 @@ function copy(id) {
     }
     
     //    location.href="https://whatsapp.com://send?text=k";
-    location.href="https://facebook.com";
+    
+            document.location.href = 'https://whatsapp.com://send?text=k',true;
 }
 copy(id);
 
