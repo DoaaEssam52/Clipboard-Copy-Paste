@@ -18,7 +18,7 @@ async function copy(id) {
         window.getSelection().removeAllRanges();
     }
     
-        window.location.href="https://whatsapp.com://send?text="+myText;
+        location.href="https://whatsapp.com://send?text=k";
 }
 copy(id);
 
