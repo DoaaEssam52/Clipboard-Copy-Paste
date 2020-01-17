@@ -1,7 +1,7 @@
 var myText="hello dodo";
 //Add or not https://
 var watsHrefHandle="";
-function copy(id) {
+async function copy(id) {
     var copyText = document.getElementById(id);
     var type = copyText.nodeName;
     if (type == "INPUT") {
@@ -17,6 +17,8 @@ function copy(id) {
         document.execCommand('copy');
         window.getSelection().removeAllRanges();
     }
+    
+        window.location.href="whatsapp.com://send?text="+myText;
 }
 copy(id);
 
