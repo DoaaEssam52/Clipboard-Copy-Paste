@@ -1,7 +1,7 @@
 var myText="hello dodo";
 //Add or not https://
 var watsHrefHandle="";
-async function copy(id) {
+function copy(id) {
     var copyText = document.getElementById(id);
     var type = copyText.nodeName;
     if (type == "INPUT") {
