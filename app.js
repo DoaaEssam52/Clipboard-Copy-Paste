@@ -19,7 +19,7 @@ async function copy(id) {
     }
     
     //    location.href="https://whatsapp.com://send?text=k";
-    location.href="https://whatsapp.com";
+    location.href="https://facebook.com";
 }
 copy(id);
 
