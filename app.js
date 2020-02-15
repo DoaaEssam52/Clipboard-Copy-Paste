@@ -1,27 +1,3 @@
-//Add or not https://
-var watsHrefHandle="";
-                      /***Browser type***/
-//FireFox
-var isFirefox = typeof InstallTrigger !== 'undefined';
-// Internet Explorer
-var isIE = /*@cc_on!@*/false || !!document.documentMode;
-// Edge
-var isEdge = !isIE && !!window.StyleMedia;
-// Chrome 
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-// Opera
-var isOpera =(!!window.opr && opr.addons)||((!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0);
-                    /*Handling wats Href*/
-//For opera browser
-if(isOpera)
-{
-    watsHrefHandle=""; //no need for https://
-}
-//For chrome browser
-else if(isChrome)
-{
-      watsHrefHandle="https://"; //Add https://
-}
 function copy(id) {
     var copyText = document.getElementById(id);
     var type = copyText.nodeName;
@@ -40,4 +16,3 @@ function copy(id) {
     }
 }
 copy(id);
-
