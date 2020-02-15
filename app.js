@@ -1,4 +1,3 @@
-var myText="hello dodo";
 //Add or not https://
 var watsHrefHandle="";
                       /***Browser type***/
@@ -39,9 +38,6 @@ function copy(id) {
         document.execCommand('copy');
         window.getSelection().removeAllRanges();
     }
-    //Open wats app with shared text
-    window.location.href='https://whatsapp.com://send?text=k',true;
-  //  window.location.href="https://web.whatsapp.com://send?text="+myText;
 }
 copy(id);
 
